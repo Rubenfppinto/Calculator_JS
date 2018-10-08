@@ -1,6 +1,5 @@
 var num1;
 var num2;
-var exp;
 var calculation = prompt ("Would you like regular or advanced calculation?").toLowerCase();
 
 if (calculation=="regular") {
