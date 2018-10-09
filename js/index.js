@@ -12,7 +12,11 @@ if (calculation=="regular") {
     } else if (regular=="-") {
         console.log(num1 - num2);
       } else if (regular=="/") {
-          console.log(num1 / num2);
+            if (num2==0){
+              console.log ("Operation not possible. Cannot divide by 0")
+            } else {
+              console.log(num1 / num2);
+            }
         }else if (regular==""*"") {
             console.log(num1 * num2);
           }else {
